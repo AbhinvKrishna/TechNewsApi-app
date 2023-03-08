@@ -18,27 +18,16 @@ const reducer= (state, action)=>{
         return{
             ...state,
             query:action.searchquery,
-        }    
+        }  
+
     case "NXT_PAGE":
 
-
-    let pageNum1 = state.page
-
-    if(pageNum1===state.nbPages){
-         pageNum1=1
-    }
             return{
                 ...state,
                page: state.page+1,
             } 
             
             case "PREV_PAGE":
-
-            let pageNum = state.page
-
-            if(pageNum===0){
-                 pageNum=1
-            }
 
                 return{
                     ...state,
