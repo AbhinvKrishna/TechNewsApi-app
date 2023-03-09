@@ -1,0 +1,17 @@
+
+.nextbtn{
+background:"black";
+margin-left:250px;
+color:white;
+ cursor:pointer;
+ height:30px;
+ border:3px solid orange;
+ border-radius:10px;
+}
+
+@media(max-width:500px){
+   
+.nextbtn{
+    margin-left: 70px;
+}
+}
