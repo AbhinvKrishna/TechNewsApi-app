@@ -28,7 +28,7 @@ function Stories() {
         }
 
         return (
-
+<div className='main'>
           <div id={element.objectID} key={element.url} className="content">
             <h2 >{element.title}</h2>
             <div className="section" style={{ display: "flex" }}>
@@ -39,6 +39,7 @@ function Stories() {
               <a href={element.url} target="_blank" rel="noreferrer"><button style={{ background: " rgb(170, 255, 255)",cursor:"pointer" }}>Read More..</button></a>
               <button style={{ background: " red",cursor:"pointer" }} onClick={deleteditem}>Remove</button>
             </div>
+          </div>
           </div>
         )
       })}

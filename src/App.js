@@ -7,7 +7,7 @@ function App() {
 
   return (
   <>
-  <div className='welcome'> Welcome to AI-News API app  </div>
+  <div className=' welcome'> Welcome to AI-News API app  </div>
   <Search/>
   <Pagination/>
   <Stories/>
